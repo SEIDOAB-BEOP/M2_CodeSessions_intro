@@ -30,6 +30,24 @@ Console.WriteLine($"Total price for {fruit2.Weigth}kg {fruit2.Name} is {(decimal
 Console.WriteLine($"Total price for {fruit3.Weigth}kg {fruit3.Name} is {(decimal)fruit3.Weigth * fruit3.Price}");
 
 
+
+Fruit[] fruits = {new Fruit(), new Fruit(), new Fruit()};
+fruits[0].Name = "Grapes";
+fruits[0].Weigth = 0.4;
+fruits[0].Price = 12.30M;
+
+fruits[1].Name = "Grapes";
+fruits[1].Weigth = 0.4;
+fruits[1].Price = 12.30M;
+
+fruits[2] = fruits[0];
+fruits[0].Name = "Olives";
+
+for (int i = 0; i < fruits.Length; i++)
+{
+    Console.WriteLine($"Total price for {fruits[i].Weigth}kg {fruits[i].Name} is {(decimal)fruits[i].Weigth * fruits[i].Price}");
+}
+
 Console.ReadKey();
 
 
