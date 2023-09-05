@@ -31,6 +31,10 @@ class Program
         for (int i = 0; i < countries.Length; i++)
         {
             Console.WriteLine(countries[i]);
+            if(countries[i] == "Denmark")
+            {
+                Console.WriteLine("hello");
+            }
         }
 
         //macOs
