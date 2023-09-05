@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("class and struct");
 
 string fruit_name1 = "Banana";
 double fruit_weigth1 = 1.5;
