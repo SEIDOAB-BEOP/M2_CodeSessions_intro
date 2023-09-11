@@ -15,20 +15,43 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Console.WriteLine("1 - Say Hello");
                 Console.WriteLine("2 - Say Goodbye");
                 Console.WriteLine("3 - Say Good morning");
+                Console.WriteLine("4 - Say Good evening");
                 Console.WriteLine("Q - Quit");
                 key = Console.ReadKey();
 
+                /*
                 if (key.KeyChar == '1')
                 {
                     Console.WriteLine("\n\nHello Hello");
                 }
                 else if (key.KeyChar == '2')
                 {
-                    Console.WriteLine("\n\nBye Bye");
+                          Console.WriteLine("\n\Bye Bye");
                 }
                 else if (key.KeyChar == '3')
                 {
                     Console.WriteLine("\n\nBreakfast?");
+                }
+                else if (key.KeyChar == '4')
+                {
+                    Console.WriteLine("\n\nDinner?");
+                }
+                */
+
+                switch (key.KeyChar)
+                {
+                    case '1':
+                        Console.WriteLine("\n\nHello Hello");
+                        break;
+                    case '2':
+                        Console.WriteLine("\n\nBye Bye");
+                        break;
+                    case '3':
+                        Console.WriteLine("\n\nBreakfast?");
+                        break;
+                    case '4':
+                        Console.WriteLine("\n\nDinner?");
+                        break;
                 }
 
 
