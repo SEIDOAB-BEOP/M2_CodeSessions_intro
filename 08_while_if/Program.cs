@@ -49,4 +49,5 @@ while (counter < 1000)
         counter += 100;
     }
     Console.Write($"{counter}, ");
+
 }
