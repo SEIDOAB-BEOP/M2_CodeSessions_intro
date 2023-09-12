@@ -17,11 +17,6 @@ class Program
         }
 
         Console.WriteLine("\nCharacters");
-        char ch1 = (char) 65;
-        Console.WriteLine(ch1);
-
-        char ch2 = (char) 90;
-        Console.WriteLine(ch2);
 
         var rnd = new Random();
         for (int i = 0; i < 10; i++)
@@ -30,7 +25,11 @@ class Program
             char lc2 = (char)rnd.Next(65, 91);
             char lc3 = (char)rnd.Next(65, 91);
 
-            string license = $"{lc1}{lc2}{lc3} 123";
+            var i1 = rnd.Next(0, 10);
+            var i2 = rnd.Next(0, 10);
+            var i3 = rnd.Next(0, 10);
+
+            string license = $"{lc1}{lc2}{lc3} {i1}{i2}{i3}";
             Console.WriteLine(license);
         }
 
