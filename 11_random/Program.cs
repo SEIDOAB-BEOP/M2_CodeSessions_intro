@@ -18,14 +18,14 @@ class Program
 
     static string GetName()
     {
-        var s = "Joakim, Josef, Emilja, Nicole, Samir, Amin, Bashir".Split(", ");
-        var s1 = "Emil, Eddie, Martin, Andre, Robin, Christos".Split(", ");
+        string[] s = "Joakim, Josef, Emilja, Nicole, Samir, Amin, Bashir".Split(", ");
+        string[] s1 = "Emil, Eddie, Martin, Andre, Robin, Christos".Split(", ");
 
-        var rnd = new Random();
-        var nr = rnd.Next(0, s.Length);
-        var nr1 = rnd.Next(0, s1.Length);
+        Random rnd = new Random();
+        int nr = rnd.Next(0, s.Length);
+        int nr1 = rnd.Next(0, s1.Length);
 
-        var name = $"{s[nr]} {s1[nr1]}";
+        string name = $"{s[nr]} {s1[nr1]}";
         return name;
     }
 
@@ -37,9 +37,9 @@ class Program
         char lc2 = (char)rnd.Next(65, 91);
         char lc3 = (char)rnd.Next(65, 91);
 
-        var i1 = rnd.Next(0, 10);
-        var i2 = rnd.Next(0, 10);
-        var i3 = rnd.Next(0, 10);
+        int i1 = rnd.Next(0, 10);
+        int i2 = rnd.Next(0, 10);
+        int i3 = rnd.Next(0, 10);
 
         string license = $"{lc1}{lc2}{lc3} {i1}{i2}{i3}";
         return license;
