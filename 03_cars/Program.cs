@@ -65,6 +65,8 @@ class Program
             Console.WriteLine($"A {cars[i].Make} {cars[i].Model} with registration {cars[i].RegNr} is owned by {cars[i].Owner.Name}");
         }
     }
+
+
 }
 
 //Övning:
