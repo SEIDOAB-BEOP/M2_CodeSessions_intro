@@ -4,23 +4,32 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter a number");
-        string s_nr = Console.ReadLine();
+        int nr;
+        do
+        {
+            nr = GetANumber();
+            Console.WriteLine($"Number is {nr}");
 
+        } while (nr < 50);
+    }
+
+    private static int GetANumber()
+    {
         int nr;
         bool all_ok;
 
-        nr = int.Parse(s_nr);
-        all_ok = int.TryParse(s_nr, out nr);
+        do
+        {
+            Console.WriteLine("Enter a number");
+            string s_nr = Console.ReadLine();
 
-        if (all_ok)
-        {
-            Console.WriteLine(nr + 10);
-        }
-        else
-        {
-            Console.WriteLine("Not a number");
-        }
+            all_ok = int.TryParse(s_nr, out nr);
+            if (!all_ok)
+            {
+                Console.WriteLine("Not a number");
+            }
+        } while (!all_ok);
+        return nr;
     }
 }
 
