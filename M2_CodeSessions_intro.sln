@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_random", "11_random\11_r
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_cars_revisited", "12_cars_revisited\12_cars_revisited.csproj", "{5424B038-646E-4A36-9F1F-BF0AB223EED4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_static_vs_instance", "13_static_vs_instance\13_static_vs_instance.csproj", "{BDB6EBB2-4072-4513-85BE-E67ACDFE5D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_min_max_loop", "14_min_max_loop\14_min_max_loop.csproj", "{DAE79C2C-CD43-434D-B71D-893590D10A29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{5424B038-646E-4A36-9F1F-BF0AB223EED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5424B038-646E-4A36-9F1F-BF0AB223EED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5424B038-646E-4A36-9F1F-BF0AB223EED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB6EBB2-4072-4513-85BE-E67ACDFE5D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB6EBB2-4072-4513-85BE-E67ACDFE5D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB6EBB2-4072-4513-85BE-E67ACDFE5D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB6EBB2-4072-4513-85BE-E67ACDFE5D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE79C2C-CD43-434D-B71D-893590D10A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE79C2C-CD43-434D-B71D-893590D10A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE79C2C-CD43-434D-B71D-893590D10A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE79C2C-CD43-434D-B71D-893590D10A29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
