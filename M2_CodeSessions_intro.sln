@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_methods_tryparse", "16_m
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_multidim_array", "17_multidim array\17_multidim_array.csproj", "{F8C33DCE-E21E-47C8-8910-480E2CF34041}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_summera_tal", "18_summera_tal\18_summera_tal.csproj", "{CC3F22FB-8108-4AA1-B2DC-125405B2C241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_summera_tal_methods", "19_summera_tal_methods\19_summera_tal_methods.csproj", "{DC07CB53-BB22-4722-B9B3-45D3EC0F9B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{F8C33DCE-E21E-47C8-8910-480E2CF34041}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C33DCE-E21E-47C8-8910-480E2CF34041}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C33DCE-E21E-47C8-8910-480E2CF34041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3F22FB-8108-4AA1-B2DC-125405B2C241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3F22FB-8108-4AA1-B2DC-125405B2C241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3F22FB-8108-4AA1-B2DC-125405B2C241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3F22FB-8108-4AA1-B2DC-125405B2C241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC07CB53-BB22-4722-B9B3-45D3EC0F9B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC07CB53-BB22-4722-B9B3-45D3EC0F9B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC07CB53-BB22-4722-B9B3-45D3EC0F9B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC07CB53-BB22-4722-B9B3-45D3EC0F9B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
